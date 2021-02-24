@@ -1,24 +1,5 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to Rachael test blog",
-    "description": "Welcome to our new blog, Rachael test blog. We hope you enjoy \nreading what we have to say!",
-    "author": [
-      {
-        "name": "Rachael Latimer",
-        "url": {}
-      }
-    ],
-    "date": "2021-02-24",
-    "categories": [
-      "visualization"
-    ],
-    "contents": "\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-02-24T11:08:59-08:00",
-    "input_file": "welcome.utf8.md"
-  },
-  {
     "path": "posts/2021-02-24-new-post/",
     "title": "new post",
     "description": "A short description of the post.",
@@ -35,7 +16,28 @@
     ],
     "contents": "\r\nPlot with different font than default.\r\n\r\n\r\nlibrary(tidyverse)\r\nggplot(mtcars,aes(disp,mpg))+\r\n  geom_point()+\r\n  geom_smooth()+\r\n  labs(title = \"plot\")+\r\n  theme(text=element_text(family = \"Roboto\"))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/2021-02-24-new-post/new-post_files/figure-html5/unnamed-chunk-1-1.png",
-    "last_modified": "2021-02-24T11:09:10-08:00",
-    "input_file": "new-post.utf8.md"
+    "last_modified": "2021-02-24T11:25:20-08:00",
+    "input_file": "new-post.utf8.md",
+    "preview_width": 1248,
+    "preview_height": 768
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Rachael test blog",
+    "description": "Welcome to our new blog, Rachael test blog. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Rachael Latimer",
+        "url": {}
+      }
+    ],
+    "date": "2021-02-24",
+    "categories": [
+      "visualization"
+    ],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-02-24T11:09:00-08:00",
+    "input_file": {}
   }
 ]

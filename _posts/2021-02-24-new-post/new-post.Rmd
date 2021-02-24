@@ -20,7 +20,8 @@ knitr::opts_chunk$set(dev = "ragg_png")
 ```
 
 Plot with different font than default.
-```{r message = FALSE}
+
+```{r message = FALSE, layout = "l-page"}
 
 library(tidyverse)
 ggplot(mtcars,aes(disp,mpg))+
