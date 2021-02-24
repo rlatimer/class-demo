@@ -10,10 +10,12 @@
       }
     ],
     "date": "2021-02-24",
-    "categories": [],
+    "categories": [
+      "visualization"
+    ],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-02-24T10:30:38-08:00",
+    "last_modified": "2021-02-24T11:05:14-08:00",
     "input_file": "welcome.utf8.md"
   },
   {
@@ -27,10 +29,13 @@
       }
     ],
     "date": "2021-02-24",
-    "categories": [],
+    "categories": [
+      "test",
+      "visualization"
+    ],
     "contents": "\r\nPlot with different font than default.\r\n\r\n\r\nlibrary(tidyverse)\r\nggplot(mtcars,aes(disp,mpg))+\r\n  geom_point()+\r\n  geom_smooth()+\r\n  labs(title = \"plot\")+\r\n  theme(text=element_text(family = \"Roboto\"))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/2021-02-24-new-post/new-post_files/figure-html5/unnamed-chunk-1-1.png",
-    "last_modified": "2021-02-24T10:41:03-08:00",
+    "last_modified": "2021-02-24T11:05:06-08:00",
     "input_file": "new-post.utf8.md"
   }
 ]
